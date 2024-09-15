@@ -1,0 +1,101 @@
+
+
+
+
+ 
+
+ body{
+    font-family: 'times roman';
+    color: #577a86;
+    margin: 20px;
+    padding: 0;
+    background-color: #dbdbdb ;
+ }
+
+ h1{
+    text-align: center;
+    columns: #c2c2ca;
+
+ }
+
+ form{
+    max-width: 600px;
+    margin: auto;
+    background-color: #92cdd4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    padding: 20px;
+ }
+
+ fieldset{
+    border: 2px solid #8fb7c5;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20PX;
+    background-color: rgb(206, 221, 235);
+    
+ }
+ 
+ legend{
+    font-weight: bold;
+    text-align: left;
+    color:rgb(31, 130, 148);
+
+ }
+
+ label{
+    display: block;
+    margin-top: 10px;
+    color: rgb(43, 113, 153);
+
+ }
+
+ input, textarea{
+    width: calc(100% - 1PX);
+    padding: 8PX;
+    margin-top: 4PX;
+    border: 1PX solid rgb(133, 202, 202);
+    border-radius: 4px;
+    box-sizing: border-box;
+
+ }
+
+ button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(125, 165, 170);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top:10px ;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+
+ }
+
+ button:hover{
+    background-color: rgb(51, 109, 102);
+ }
+
+
+
+ #resume-display{
+    
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid rgb(97, 166, 212);
+    border-radius: 8px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8 px rgba(0,0,0,0.5);
+    /* making ediatble resume */
+    outline: none;
+ }
+
+ #resume-display{
+    color: #182d42;
+    background-color: cadetblue;
+    
+ }
