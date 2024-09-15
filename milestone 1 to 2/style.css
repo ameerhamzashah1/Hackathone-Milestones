@@ -1,0 +1,135 @@
+
+
+
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container{
+   
+    display:flex;
+    background-color: rgb(199 161 193);
+    width: 80%;
+    margin: 0 auto;
+    border-radius:10px ;
+    box-shadow:  0 0 20px rgb(35, 102, 96);
+
+}
+h1{
+    text-align: center;
+    color: rgb(161, 80, 214);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ 
+
+.left-section{
+    /* margin: 10px; */
+    background-color: rgb(19, 19, 56);
+    border-style: solid;
+     border-width: 0.5px;
+     border-color:rgb(95 50 117);
+    width: 50%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+img{
+    margin-top: 30px;
+    margin-left: 60px;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px; 
+        border-style: solid;
+        border-color:rgb(163, 214, 214);
+        box-shadow: #98c5d3;
+      }
+    
+
+#objective h3{
+    margin: 30px;
+    color: rgb(149, 171, 190);
+    border-color: rgb(163, 214, 214);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#objective p{
+    margin: 20px;
+    color: rgb(149, 171, 190);
+    text-align: center;
+}
+
+#cerftification h3{
+    margin: 30px;
+    color: rgb(149, 171, 190);
+    border-color: rgb(163, 214, 214);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#cerftification p{
+    margin: 20px;
+    color: azure;
+    color: rgb(149, 171, 190);
+    text-align: center;
+}
+
+
+
+.right-section{
+    background-color: rgb(199 161 193);
+    margin: 10px;
+    width: 70%;
+   
+}
+
+.right-section #personal-info h3{
+    margin: 30px;
+    color: rgb(118, 31, 121);
+    border-color: rgb(104, 37, 148);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    text-align: center;
+
+}
+
+
+.right-section  p{
+    margin: 20px;
+    color: rgb(95 50 117);
+}
+
+ul li{
+    color:rgb(94, 51, 116);
+    font-weight:500;
+}
+
+#toggle-skills{
+    color:rgb(0, 0, 0);
+    background-color: rgb(218, 17, 17) ;
+
+    width: 100%;
+    height: 40px;
+}
+
+#toggle-skills:hover{
+    background-color: rgb(209, 209, 209);
+}
+
+.left-section h3:hover {
+    background-color: red;
+}
+
+.right-section h3:hover {
+    background-color:rgb(194, 98, 173);
+}
+
+    
